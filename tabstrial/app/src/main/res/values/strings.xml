@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tabstrial</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="one">Food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="two">Entertainment</string>
+</resources>

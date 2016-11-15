@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kudtarkarides.firebaseauth.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Registration"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:inputType="text"
+            android:hint="FIRST NAME"
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:inputType="text"
+            android:hint="LAST NAME"
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:hint="EMAIL"
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+        android:layout_margin="5dp"
+        android:inputType="textPassword"
+        android:hint="PASSWORD"
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:hint="CONFIRM PASSWORD"
+            android:id="@+id/editTextPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/buttonRegister"
+            android:text="Sign Up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Already a user"
+            android:id="@+id/textViewSignIn"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>
